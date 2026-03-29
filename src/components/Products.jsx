@@ -37,12 +37,12 @@ function Products() {
         {products.map((elem,index)=><Product  elem={elem} Mover={mover} count={index} />)}
         <div className='w-full h-full absolute top-0  pointer-events-none'>
           <motion.div   intitial={{y:pos }} animate={{y:pos + `rem`}} transition={{ease:[0.76 , 0 , 0.24 , 1],duration:0.5}} className='overflow-hidden window absolute left-[44%] w-[28rem]  h-[23rem] bg-amber-100  -translate-x-[50%]'>
-            <motion.div animate={{y:-pos+`rem`}} transition={{ease:[0.76 , 0 , 0.24 , 1],duration:0.5}} className=' w-full h-full bg-amber-100 '>
+            <motion.div animate={{y:-pos+`rem`}} transition={{ease:[0.76 , 0 , 0.24 , 1],duration:0.5}} className=' w-full h-full bg-blue-900 '>
                
             </motion.div>   
-            <motion.div animate={{y:-pos+`rem`}} transition={{ease:[0.76 , 0 , 0.24 , 1],duration:0.5}} className=' w-full h-full bg-amber-200 '></motion.div>   
-            <motion.div animate={{y:-pos+`rem`}} transition={{ease:[0.76 , 0 , 0.24 , 1],duration:0.5}} className=' w-full h-full bg-amber-300 '></motion.div>   
-            <motion.div animate={{y:-pos+`rem`}} transition={{ease:[0.76 , 0 , 0.24 , 1],duration:0.5}} className=' w-full h-full bg-amber-400 '></motion.div>   
+            <motion.div animate={{y:-pos+`rem`}} transition={{ease:[0.76 , 0 , 0.24 , 1],duration:0.5}} className=' w-full h-full bg-blue-800 '></motion.div>   
+            <motion.div animate={{y:-pos+`rem`}} transition={{ease:[0.76 , 0 , 0.24 , 1],duration:0.5}} className=' w-full h-full bg-blue-700 '></motion.div>   
+            <motion.div animate={{y:-pos+`rem`}} transition={{ease:[0.76 , 0 , 0.24 , 1],duration:0.5}} className=' w-full h-full bg-blue-900 '></motion.div>   
             
           </motion.div>
         </div>
